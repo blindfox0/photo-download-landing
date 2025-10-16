@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/nyy0zue.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <title>Pobierz swoje zdjęcia!</title>
+</head>
+
+<body>
+    <!-- przycisk back to top -->
+    <button id="back-to-top" onclick="scrollToTop();"><i class="fa-solid fa-angles-up"></i></button>
+
+    <nav id="nav" class="navbar navbar-expand-md navbar-dark bg-transparent nav-animation">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="./images/Logo_fotomat_big-white.png" alt="">
+            </div>
+            <ul class="navbar-nav list-unstyled">
+                <li class="nav-item"><a href="#thanks" class="nav-link">Informacje</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+                <li class="nav-item"><a href="https://fotomatstudio.pl"
+                        class="nav-link btn btn-outline-secondary">Fotomatstudio.pl</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero banner -->
+    <section class="jumbotron jumbotron-fluid d-flex align-items-center hero">
+        <div class="container">
+            <div class="text-center text-white hero-text rellax" data-rellax-speed="3">
+                <h1>Wiktor</h1>
+                <h3 class="fw-light">Komunia Święta</h3>
+                <!-- <a href="#download-cards" class="btn btn-outline-light btn-lg">Pobierz zdjęcia</a> -->
+                <div class="hero-icon"><i class="fa-solid fa-arrow-down"></i></div>
+            </div>
+        </div>
+        <div class="hero-overlay">
+            
+        </div>
+    </section>
+
+    <!-- intro -->
+    <section class="intro">
+        <div class="intro-main">
+            <div class="intro-main-inner">
+                <p class="intro-text">Dziękuję, że mogłem być Waszym fotografem :)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- podziekowania -->
+    <!-- big-section jest tylko dla zapewnienia tla na obie sekcje -->
+    <div class="big-section" id="big-section">
+        <!-- KILKA OSOB / RODZINA -->
+        <section class="thanks" id="thanks">
+            <div class="verticalDivider"></div>
+            <div class="container rellax" data-rellax-speed="-.5">
+                <h2 class="text-center">Dziekuję!</h2>
+                <div class="row w-75 mx-auto">
+                    <div class="col-md-6">
+                        <p>Przede wszystkim, chciałbym podziękować Wam za zaufanie, które okazaliście wybierając mnie na
+                            Waszego fotografa. Zdjęcia to trwały nośnik emocji, pozwalający wrócić do najpiękniejszych
+                            chwil, kiedy te zaczną już powoli blaknąć. Dlatego zawsze staram się, aby poza czystym
+                            reporterskim rzemiosłem, zawierały one odrobinę magii.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Poniżej znajdziecie linki, które zabiorą Was do waszych wspomnień. Galeria służy do
+                            przeglądania zdjęć online - można ją wysłać rodzinie lub znajomym. Działa też na wszystkich
+                            urządzeniach. Pamiętajcie jednak, aby nie pobierać z niej zdjęć w celu drukowania. Paczka
+                            ZIP musi być z kolei pobrana na dysk, aby można było zobaczyć jej zawartość. W niej znajdują
+                            się zdjęcia w pełnej jakości - ciężkie, ale gotowe do wydruku :)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- JEDNA OSOBA -->
+        <!-- <section class="thanks" id="thanks">
+            <div class="verticalDivider"></div>
+            <div class="container rellax" data-rellax-speed="-.5">
+                <h2 class="text-center">Dziekuję!</h2>
+                <div class="row w-75 mx-auto">
+                    <div class="col-md-6">
+                        <p>Przede wszystkim, chciałbym podziękować Ci za zaufanie, które okazałaś wybierając mnie na
+                            Swojego fotografa. Zdjęcia to trwały nośnik emocji i uczuć osoby fotografowanej. Dlatego zawsze staram się, aby poza czystym
+                            portretowym rzemiosłem, zawierały one odrobinę magii.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Poniżej znajdzieciesz linki, które pozwolą Ci na obejrzenie Twoich zdjęć. Galeria służy do
+                            przeglądania zdjęć online - można ją wysłać rodzinie lub znajomym. Działa też na wszystkich
+                            urządzeniach. Pamiętaj jednak, aby nie pobierać z niej zdjęć w celu drukowania. Paczka
+                            ZIP musi być z kolei pobrana na dysk, aby można było zobaczyć jej zawartość. W niej znajdują
+                            się zdjęcia w pełnej jakości - ciężkie, ale gotowe do wydruku :)</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+        <!-- karty animacja -->
+
+        <section class="cards" id="download-cards">
+            <div class="container card-container">
+                <div class="row animated-row">
+                    <div class="col-lg-4 cards-column card-bottom-offset">
+                        <div id="card1" class="animated-card">
+                            <div class="card-image">
+                                <img src="./images/_DSC4063.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Galeria online</h3>
+                                <p>Skorzystaj z tego przycisku, aby obejrzeć zdjęcia bez konieczności pobierania ich na
+                                    dysk</p>
+                                <div class="info-button"><a class="btn btn-outline-dark" href="https://adobe.ly/3NzG05c" target="_blank">Galeria</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cards-column">
+                        <div id="card2" class="animated-card">
+                            <div class="card-image">
+                                <img style="object-position: center !important;" src="./images/_DSC4119.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Paczka ZIP</h3>
+                                <p>Skorzystaj z tego przycisku, aby pobrać na dysk zdjęcia w pełnej jakości</p>
+                                <div class="info-button"><a class="btn btn-outline-dark" href="https://www.icloud.com/iclouddrive/09dCp_F74vmG9D9hY0sU0f94g#Komunia_Wiktora" target="_blank">Paczka ZIP</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cards-column card-bottom-offset">
+                        <div id="card3" class="animated-card">
+                            <div class="info info-fh text-white">
+                                <h3>Jeśli spodobały Ci się moje zdjęcia...</h3>
+                                <p>... poświęć proszę chwilkę na zostawienie mi oceny na Google Maps lub na Facebooku.
+                                    Jest to dla mnie naprawdę bardzo ważne! To nie tylko informacja, że moja praca ma
+                                    sens. To także mała, ale bardzo potrzebna cegiełka do bycia zauważonym przez większą
+                                    liczbę Klientów. Moim marzeniem od zawsze był własny fotograficzny biznes, bez
+                                    konieczności pracy na etacie (jak robię to obecnie). Pomożesz mi je spełnić? :)</p>
+                                <div class="info-button">
+                                    <a class="btn btn-outline-light"
+                                        href="https://g.page/r/Cb9vn15Uf_czEAI/review" target="_blank">Google Maps <i
+                                            class="fa-solid fa-map"></i></a>
+                                    <a class="btn btn-outline-light" href="https://www.facebook.com/studiofotomat" target="_blank">FB <i
+                                            class="fa-brands fa-square-facebook"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- kontakt -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-overlay"></div>
+            <div id="contact-content" class="text-white contact-content">
+                <h2>Skontaktuj się</h2>
+                <p>Jeśli masz jakiekolwiek pytania lub wątpliwości, chcesz domówić odbitki lub dowiedzieć się o ofertę
+                    fotoksiążek (także tych miziastych :) ) zapraszam do kontaktu!</p>
+                <button class="btn btn-outline-light btn-lg" type="button" onclick="showContact();">Kontakt <i
+                        class="fa-solid fa-envelope"></i></button>
+            </div>
+            <div class="text-white contact-content-overlay">
+                <div class="container">
+                    <div id="contact-content-overlay-inner">
+                        <h2><i class="fa-solid fa-phone"></i> 691 115 598</h2><br>
+                        <h2><i class="fa-solid fa-envelope"></i> ms@fotomatstudio.pl</h2>
+                        <button class="btn btn-outline-light btn-lg" type="button" onclick="closeContact();"><i
+                                class="fa-solid fa-arrow-left-long"></i> Powrót</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- script -->
+    <script>
+        var content = document.getElementById('contact-content');
+        var contentOverlay = document.getElementById('contact-content-overlay-inner');
+        var backToTop = document.getElementById('back-to-top');
+        var card1 = document.querySelector('#card1');
+        var card2 = document.querySelector('#card2');
+        var card3 = document.querySelector('#card3');
+        var animatedCards = document.querySelector('.cards');
+
+        function showContact() {
+            content.style.opacity = "0";
+            content.style.transform = "translateY(50px)";
+
+            contentOverlay.style.transition = "all 0.7s ease-in-out"
+            contentOverlay.style.visibility = "visible";
+            contentOverlay.style.opacity = "1";
+            contentOverlay.style.transform = "translateY(0)";
+        }
+
+        function closeContact() {
+            content.style.opacity = "1";
+            content.style.transform = "translateY(0)";
+
+            contentOverlay.style.opacity = "0";
+            contentOverlay.style.transform = "translateY(-50px)";
+            contentOverlay.style.visibility = "hidden";
+        }
+
+        function showBackButton() {
+            if (document.documentElement.scrollTop > 300) {
+                backToTop.style.display = "inline-block";
+            } else {
+                backToTop.style.display = "none"
+            }
+        }
+
+        // oblicza mnoznik do efektu paralaksy i modyfikuje go przy resizowaniu okna
+        var multiplier = ((window.innerHeight) / 2 + (animatedCards.clientHeight) / 2) / 100;
+
+        window.onresize = function () {
+            multiplier = ((window.innerHeight) / 2 + (animatedCards.clientHeight) / 2) / 100;
+        }
+
+        // funkcja odjebujaca efekt paralxy
+        function parallax(parallaxObject, direction) {
+            // oblicza odleglosc kart do pobierania od gornej krawedzi okna przegladarki
+            var downloadCardsOffset = animatedCards.offsetTop + card1.offsetTop - document.documentElement.scrollTop;
+
+            console.log(downloadCardsOffset + " downloadCardOffset");
+            console.log(document.documentElement.scrollTop + " scroll top");
+            console.log(card1.offsetTop);
+            
+            // jesli odleglosc kart do pobierania od gornej krawedzi okna przegladarki jest mniejsza niz wysokosc okna przegladarki to znaczy, ze znalazy sie we viewport i mozna zaczac nimi poruszac
+            if (downloadCardsOffset < window.innerHeight) {
+                // odleglosc kart od gornej krawedzi przegladarki (downloadCardsOffset) zawsze bedzie mniejsza niz wysokosc okna (determinuje to warunek if powyzej). Dzieki temu karty po spelnieniu ifa beda sie liniowo poruszac. Niemal rowna wartosc od ktorej te zmienne zaczynaja (jedna jest tylko o 1 mniejsza od drugiej i roznica rosnie liniowo) eliminuje skoki o wiele px w gore lub w dol od razu po spelnieniu ifa. Poczatkowa roznica wynosi 1 a wiec poczatkowy skok po spelnieniu ifa tez wynosi 1 px.
+                parallaxObject.style.transform =
+                    `translateY(${(downloadCardsOffset - window.innerHeight) / multiplier * direction}px)`;
+            }
+        }
+
+        window.onscroll = function () {
+            showBackButton();
+            //parallax(card1, -1);
+            //parallax(card3, 1);
+        }
+
+        function scrollToTop() {
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <script src="./rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
+    <script src="./gsap/gsap.min.js"></script>
+    <script src="./gsap/ScrollTrigger.min.js"></script>
+    <script src="./animation.js"></script>
+
+    <!-- <script>
+        if (window.innerWidth > 780) {
+            
+        }
+    </script> -->
+    
+    <script src="./animated-card.js"></script>
+    <script src="./snap.js"></script>
+</body>
+
+</html>
